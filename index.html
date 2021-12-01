@@ -12,5 +12,15 @@
         <canvas id="gradient-canvas" data-js-darken-top data-transition-in></canvas>
     </div>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+    <script>
+        var sf = new Snowflakes({
+            color: "#FFF",
+            minOpacity: 0.2,
+            maxOpacity: 1,
+            minSize: 20,
+            maxSize: 50
+        });
+    </script>
 </body>
 </html>
